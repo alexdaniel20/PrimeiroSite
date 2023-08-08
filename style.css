@@ -18,3 +18,24 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.descricao {
+  background-color: white;
+}
+
+.botao {
+  padding: 20px;
+  background-color: red;
+  border-radius: 2px;
+}
